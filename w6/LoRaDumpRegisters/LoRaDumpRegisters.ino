@@ -5,7 +5,7 @@
   registers on the Serial interface
 */
 #include <SPI.h>              // include libraries
-#include "LoRa.h"
+#include <LoRa.h>
 
 void setup() {
   Serial.begin(9600);               // initialize serial
